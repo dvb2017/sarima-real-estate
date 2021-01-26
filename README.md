@@ -32,7 +32,7 @@ There were two separate and distinct steps here. The first was to narrow down th
 
 While I used various methods of data visualization before I began modeling, there are a couple that I would like to quickly highlight here.  The first was a visualization I created in order to get a quick idea of what seasonality might be present in the data.  In an effort to easily observe this, I plotted each year's prices as their own line on the graph.  This gave a rather confusing picture until I incorporated some outside knowledge of housing prices.  The next graph shows the years during the financial crisis in red, giving a clearer idea of what is happening.  Finally, in the third graph I started each line at zero so that rather than showing the actual price for each year it simply showcased the change in price during that year.  
 
-![one-year](https://github.com/dvb2017/arima-real-estate/blob/main/charts/one_year_red.png) ![one-year-red](https://github.com/dvb2017/arima-real-estate/blob/main/charts/one_year_green.png) ![one-year-zero](https://github.com/dvb2017/arima-real-estate/blob/main/charts/one_year_zero.png)
+![one-year](https://github.com/dvb2017/sarima-real-estate/blob/main/charts/one_year_red.png) ![one-year-red](https://github.com/dvb2017/sarima-real-estate/blob/main/charts/one_year_green.png) ![one-year-zero](https://github.com/dvb2017/sarima-real-estate/blob/main/charts/one_year_zero.png)
 
 I also created a visualization showing the difference between the top three percent subset of zip codes that I selected compared to the greater data set.  There are actually a few interesting insights that can be gleaned from this.  The thick red line on the graph below represents the price of the top three percent zip codes, while the green line represents the overall average price.  The smaller blue lines each represent a random zip code chosen from the top three percent subset.  Obviously, the top three percent subset maintains a much higher price since that was the basis on which it was selected.  The more important observation to be found here is that the price swings are much larger for this category than the overall average (even relative to their respective ranges), suggesting that more expensive zip codes tend to exhibit greater volatility.  Another notable finding is that top three percent subset appears to have recovered much more quickly after the 2008 financial crisis than the general data.  
 
@@ -40,7 +40,7 @@ I also created a visualization showing the difference between the top three perc
 
 Next, I wanted to check to see if there was a relationship between the change in housing prices for each state and the population change for that state.  To get a visualization of this, I created a scatter plot with percent change in price on one axis and percent change in the state's population on the other.  I then sized each dot according to that state's share of top 3% of zip codes.  
 
-![price-change-by-state](https://github.com/dvb2017/arima-real-estate/blob/main/charts/share_by_state.png)
+![price-change-by-state](https://github.com/dvb2017/sarima-real-estate/blob/main/charts/share_by_state.png)
 
 ## Modeling
 

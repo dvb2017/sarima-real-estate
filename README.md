@@ -22,7 +22,7 @@
 
 ## The Dataset
 
-The dataset here is fairly simple.  It includes housing prices for a large number of zip codes in the United States over a period of 22 years.  Along with each entry is the associated city, state, and size ranking.  The only real data of interest for our analysis will be the zip codes and time series housing prices, which is presented originally in wide format.  This just means that all of the date entries are on the same line, making the dataset 'wide'.
+The dataset here is fairly simple.  It includes housing prices for a large number of zip codes in the United States over a period of 22 years.  Along with each entry is the associated city, state, and size ranking.  The only real data of interest for our analysis will be the zip codes and time series housing prices, which is presented originally in wide format.  This just means that all of the date entries are on the same line, making the dataset what data scientists consider 'wide'.
 
 ## Data Cleaning
 
